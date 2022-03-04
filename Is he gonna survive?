@@ -1,0 +1,10 @@
+function hero(bullets, dragons){
+  let res 
+  if (dragons * 2 <= bullets ){
+    res = true
+    return res
+  } else {
+    res = false
+    return res
+  }
+}
