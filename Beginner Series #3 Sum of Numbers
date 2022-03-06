@@ -1,0 +1,25 @@
+function getSum( a,b ) {
+   let res = 0
+   let min = 0
+   let max = 0 
+   if (a == b) {
+     return a, b
+   } else if (a > b) {
+      max = a
+      min = b
+     for (let i = 0; b <= a; b++) {
+       res += b
+     }
+     return res
+     } else if (a < b) {
+       max = b
+       min = a
+       for (let i = 0; a <= b; a++) {
+         res += a
+       }
+       return res
+     }
+  
+   
+   
+}
