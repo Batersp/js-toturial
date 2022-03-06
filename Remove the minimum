@@ -1,0 +1,12 @@
+function removeSmallest(numbers) {
+  let res = []
+  let min = 0
+  min = Math.min.apply(null, numbers)
+  let index = numbers.indexOf(min)
+  for (let i = 0; i < numbers.length; i++) {
+    res.push(numbers[i])
+  }
+  res.splice(index, 1)
+  return res
+  
+}
