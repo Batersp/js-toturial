@@ -1,0 +1,11 @@
+var number=function(array){
+  let res =[]
+  let nomer = 1
+  let k 
+  for (let i = 0; i < array.length; i++){
+    k = nomer.toString() + ': '
+    res.push(k +array[i])
+    nomer ++
+  }
+  return res
+}
