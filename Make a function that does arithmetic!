@@ -1,0 +1,13 @@
+function arithmetic(a, b, operator){
+  let res = 0
+  if (operator == 'add') {
+    res = a + b
+  } else if(operator == 'subtract') {
+    res = a - b
+  } else if(operator == 'multiply') {
+    res = a * b
+  } else if(operator == 'divide') {
+    res = a / b
+  }
+  return res
+}
