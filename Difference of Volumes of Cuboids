@@ -1,0 +1,13 @@
+function findDifference(a, b) {
+  let res = 0
+  let v1 = 0
+  let v2 = 0
+  v1 = a[0] * a[1] * a[2]
+  v2 = b[0] * b[1] * b[2]
+  if (v1 >= v2) {
+    res = v1 - v2
+  } else {
+    res = v2 - v1
+  }
+  return res
+}
