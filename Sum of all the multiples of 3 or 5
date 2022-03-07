@@ -1,0 +1,11 @@
+function findSum(n) {
+  let res = 0
+  let ind = 1
+  while(ind <= n){
+    if(ind % 3 == 0 || ind % 5 ==0) {
+      res +=ind
+    }
+    ind++
+  }
+  return res
+}
