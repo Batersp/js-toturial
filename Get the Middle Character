@@ -1,0 +1,14 @@
+function getMiddle(s) {
+  let res = ''
+  let indch = 0
+  if(s.length % 2 == 0){
+    indch = s.length /2
+    res += s[indch-1] + s[indch]  
+  } else {
+    indch = Math.round(s.length / 2)
+    res += s[indch - 1]
+  }
+  return res
+  
+  
+}
