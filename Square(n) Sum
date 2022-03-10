@@ -1,9 +1,0 @@
-function squareSum(numbers){
-  let res = 0
-  for (let i = 0; i < numbers.length; i++) {
-  let operation =  numbers[i] * numbers[i]
-  res +=operation
-    
-  }
-  return res
-}

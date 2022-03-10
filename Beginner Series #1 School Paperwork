@@ -1,9 +1,0 @@
-function paperwork(n, m) {
-  let res = 0
-  if ( n < 0 || m < 0) {
-    res = 0
-  } else {
-    res = n * m
-  }
-  return res
-}
